@@ -1,6 +1,8 @@
 #==============================================================================                                                                                                                                                                                             
+include("yong_injector/injector.cmake")
 
-PROJECT(COIN_OR_OSI_CLP C CXX)
+#PROJECT(COIN_OR_OSI_CLP C CXX)
+yong_project(osi_clp CXX)
 
 # CMake version control
 CMAKE_MINIMUM_REQUIRED(VERSION 2.6)
